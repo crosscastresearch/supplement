@@ -8,7 +8,23 @@
     padding-top: 1.5rem;
 }
 
-.examples>.column {
-    margin: 1rem;
-    background: lightgrey;
+.videos>.column>video {
+    border-radius: 5px 5px 0px 0px;
+    width: inherit;
+}
+
+.videos>.column>p {
+    background: rgb(242,242,242);
+    padding: 15px;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: -7px;
+}
+
+
+.right-indent {
+    margin-right: 2rem;
+}
+
+.left-indent {
+    margin-left: 2rem;
 }
