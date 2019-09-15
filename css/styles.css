@@ -1,0 +1,14 @@
+.wrapper {
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+}
+
+.wrapper>section {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.examples>.column {
+    margin: 1rem;
+    background: lightgrey;
+}
