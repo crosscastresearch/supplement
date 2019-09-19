@@ -8,18 +8,12 @@
     padding-top: 1.5rem;
 }
 
-.videos>.column>video {
-    border-radius: 5px 5px 0px 0px;
-    width: inherit;
-}
-
 .videos>.column>p {
     background: rgb(242,242,242);
     padding: 15px;
     border-radius: 0px 0px 5px 5px;
     margin-top: -7px;
 }
-
 
 .right-indent {
     margin-right: 0.5rem;
@@ -31,4 +25,21 @@
 
 .center-text {
     text-align: center;
+}
+
+.embed-container { 
+    border-radius: 5px 5px 0px 0px;
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
 }
