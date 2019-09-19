@@ -28,3 +28,7 @@
 .left-indent {
     margin-left: 0.5rem;
 }
+
+.center-text {
+    text-align: center;
+}
